@@ -3114,7 +3114,7 @@
  .s-header__nav li {
      display: inline-block;
      padding-left: 0;
-     margin: 0 1rem;
+     margin: 0 2rem;
  }
  
  
@@ -3273,7 +3273,7 @@
          left: 6rem;
      }
      .s-header__nav-wrap {
-         padding-left: 19.6rem;
+         padding-left: 50.6rem;
      }
      .s-header__content .btn {
          right: 6rem;
