@@ -2663,80 +2663,7 @@
      padding: calc(0.25 * var(--space)) calc(0.25 * var(--space));
      border-radius: 4px;
  }
- 
- .skill-bars li .progress span::after {
-     position: absolute;
-     left: 50%;
-     bottom: -10px;
-     margin-left: -5px;
-     width: 0;
-     height: 0;
-     border: 5px solid transparent;
-     border-top-color: var(--color-black, var(--color-black));
-     content: "";
- }
- 
- .skill-bars li .percent5 {
-     width: 5%;
- }
- .skill-bars li .percent10 {
-     width: 10%;
- }
- .skill-bars li .percent15 {
-     width: 15%;
- }
- .skill-bars li .percent20 {
-     width: 20%;
- }
- .skill-bars li .percent25 {
-     width: 25%;
- }
- .skill-bars li .percent30 {
-     width: 30%;
- }
- .skill-bars li .percent35 {
-     width: 35%;
- }
- .skill-bars li .percent40 {
-     width: 40%;
- }
- .skill-bars li .percent45 {
-     width: 45%;
- }
- .skill-bars li .percent50 {
-     width: 50%;
- }
- .skill-bars li .percent55 {
-     width: 55%;
- }
- .skill-bars li .percent60 {
-     width: 60%;
- }
- .skill-bars li .percent65 {
-     width: 65%;
- }
- .skill-bars li .percent70 {
-     width: 70%;
- }
- .skill-bars li .percent75 {
-     width: 75%;
- }
- .skill-bars li .percent80 {
-     width: 80%;
- }
- .skill-bars li .percent85 {
-     width: 85%;
- }
- .skill-bars li .percent90 {
-     width: 90%;
- }
- .skill-bars li .percent95 {
-     width: 95%;
- }
- .skill-bars li .percent100 {
-     width: 100%;
- }
- 
+  
  
  /* ------------------------------------------------------------------- 
   * ## alert box
@@ -2856,6 +2783,9 @@
      letter-spacing: -0.02em;
      color: var(--color-text);
      opacity: .1;
+ }
+ code{
+     color: black;
  }
  
  .section-title h3 {
@@ -4471,4 +4401,78 @@
     }
 }
 
+
+
+
+.service-item {
+    margin-bottom: 10px;
+    padding: 50px;
+    background-color: rgba(250, 250, 250, 0.1);
+    transition: all 0.5s;
+}
+
+.service-item h4 {
+    transition: all 0.5s;
+}
+
+.service-item p {
+    transition: all 0.5s;
+}
+
+
+
+.service-item:hover {
+    background-color: rgba(250, 250, 250, 1);
+}
+
+.service-item:hover h4 {
+    color: #1e1e1e;
+}
+
+.service-item:hover p {
+    color: #4a4a4a;
+}
+
+ 
+.service-item .service-icon {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    margin-bottom: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+}
+
+.service-item .first-service-icon {
+    background-image: url(../images/first-white-icon.png);
+}
+
+.service-item:hover .first-service-icon {
+    background-image: url(../images/first-main-icon.png);
+}
+
+.service-item .second-service-icon {
+    background-image: url(../images/second-white-icon.png);
+}
+
+.service-item:hover .second-service-icon {
+    background-image: url(../images/second-main-icon.png);
+}
+
+.service-item .third-service-icon {
+    background-image: url(../images/third-white-icon.png);
+}
+
+.service-item:hover .third-service-icon {
+    background-image: url(../images/third-main-icon.png);
+}
+
+.service-item .fourth-service-icon {
+    background-image: url(../images/fourth-white-icon.png);
+}
+
+.service-item:hover .fourth-service-icon {
+    background-image: url(../images/fourth-main-icon.png);
+}
 

@@ -17,9 +17,10 @@
     ================================================== -->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/fontawesome/css/font-awesome.min.css">
+
     <!-- Latest compiled and minified CSS -->
 <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
-
 
     <!-- script
     ================================================== -->
@@ -55,7 +56,7 @@
                 </ul>
             </nav> <!-- end s-header__nav-wrap -->
 
-        <a href="images/portfolio/curriculum_vitae.pdf" class="btn btn--primary btn--small">
+        <a href="images/portfolio/CV.pdf" class="btn btn--primary btn--small">
                 <i class="fas fa-download"></i>Download CV            </a>
 
         </div> <!-- end header-content -->
@@ -100,7 +101,61 @@
 
     </section> <!-- end s-hero -->
 
-    
+    <section class="section my-services" data-section="section2">
+        <div class="container " style="margin-bottom: 120px;">
+          <div class="column large-12 w-900-stack"  style="margin-bottom: 90px;">
+            <center>
+                <h2>What I’m good at?</h2></center>
+             
+          </div>
+          <div class="row">
+            <div class="column large-6 w-900-stack">
+              <div class="service-item">
+                <i class="fas fa-diagnoses" style="width: 90px; height: 90px; color: aliceblue;" 
+                onMouseOver="this.style.color='black'"
+               onMouseOut="this.style.color='aliceblue'"></i>                <h4>Data analysis
+                </h4>
+                <p>
+                 I can analyze data to look for trends and correlations to make data driven decisions
+                </p>
+              </div>
+            </div>
+            <div class="column large-6 w-900-stack">
+              <div class="service-item">
+                <i class="fas fa-laptop-code" style="width: 90px; height: 90px; color: aliceblue;" 
+                onMouseOver="this.style.color='black'"
+               onMouseOut="this.style.color='aliceblue'"></i>
+                <h4>Frontend Development</h4>
+                <p>
+                    I will create a perfect and responsive website for freelancers and startups. 
+                </p>
+              </div>
+            </div>
+            <div class="column large-6 w-900-stack">
+              <div class="service-item">
+                <i class="fas fa-chart-line" style="width: 90px; height: 90px; color: aliceblue;" 
+                onMouseOver="this.style.color='black'"
+               onMouseOut="this.style.color='aliceblue'"></i>  
+                <h4>Data Visualization</h4>
+                <p>
+                  Share data with effective visualizations and Presentations. 
+                </p>
+              </div>
+            </div>
+            <div class="column large-6 w-900-stack">
+              <div class="service-item">
+                <i class="fas fa-table" style="width: 90px; height: 90px; color: aliceblue;" 
+                onMouseOver="this.style.color='black'"
+               onMouseOut="this.style.color='aliceblue'"></i>                 <h4>Data Cleaning</h4>
+                <p>
+                 I will check and clean your data using spreadsheets and SQL
+                </p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
     <!-- about
     ================================================== -->
     <section id="about" class="s-about">
@@ -119,17 +174,14 @@
                 
 
                 <p class="lead" data-aos="fade-right">
-                    I am a Creative and people-oriented Computer Scientist with extensive IT experience. 
-                    I also have advanced knowledge of web development frameworks and programming languages relevant to software development.
-                    I live for creating content that not only reaches a wide audience but sticks with them as well.
-
+                    Level-Headed data analytics professional, Excellent understanding and proficiency of platforms for effective data analysis, including Google sheets, Tableau, R and SQL.  Advanced knowledge of Frontend web development frameworks (Vue and React) and programming languages relevant to software development. Skilled in the maintenance and installation of hardware software and providing a high level of outstanding customer service. Completed the Google Data Analytics Certification. 
                 </p>
 
                 <p class="lead pb-3" data-aos="fade-left">
                    Dev Tools: Visual Studio Code,
                    Bootstrap,
                    Tailwind,
-                   Figma,
+                
                    Eclipse,
                    Github,
                    Gitlab
@@ -144,8 +196,28 @@
             <div class="column large-6  s-about__intro-bars">
 
                 <ul class="skill-bars">
+
+                    
+                    <p style="padding-bottom: 20px;">Data Analytics</p>
+                    <li>
+                 
+                    <strong>Excel / Google Sheets</strong>
+                    </li>
+                    <li>
+                    <strong>R</strong>
+                    </li>
+
+                    <li>
+                        <strong>SQL</strong>
+                    </li>
+
+                    <li>
+                        <strong>Tableau</strong>
+                    </li>
                     <p style="padding-bottom: 20px;">Frontend</p>
                      
+
+
                     <li>
                     <strong>HTML</strong>
                     </li>
@@ -153,28 +225,9 @@
                     <strong>CSS</strong>
                     </li>
                     <li>
-                    <strong>Javascript</strong>
+                    <strong>Javascript (Frameworks: Vue and React)</strong>
                     </li>
-                    
-                    <p style="padding-bottom: 20px;">Backend</p>
-                    <li>
-                 
-                    <strong>PHP</strong>
-                    </li>
-                    <li>
-                    <strong>Java</strong>
-                    </li>
-                    <p style="padding-bottom: 20px;">Frameworks</p>
                      
-                    <li>
-                    <strong>Vue.js</strong>
-                    </li>
-                    <li>
-                    <strong>Reactjs</strong>
-                    </li>
-                    <li>
-                    <strong>Laravel</strong>
-                    </li>
                     
                         <!-- <div class="progress percent25"><span>25%</span></div> -->
                     
@@ -208,16 +261,16 @@
             <div class="column" data-aos="fade-up">
                 <div class="folio-item">
                     <div class="folio-item__thumb">
-                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/health.jpg" title="Music Life" data-size="1050x700">
-                            <img src="images/portfolio/health.jpg" 
-                                 srcset="images/portfolio/health.jpg" alt="">
+                        <a class="folio-item__thumb-link" href="images/Dashboard1.jpg" title="Music Life" data-size="1050x700">
+                            <img src="images/Dashboard1.jpg" 
+                                 srcset="images/Dashboard1.jpg" alt="">
                         </a>
                     </div>
                     <div class="folio-item__info">
-                        <div class="folio-item__cat">Frontend</div>
-                        <h4 class="folio-item__title">CovidCare</h4>
+                        <div class="folio-item__cat">Data Analysis</div>
+                        <h4 class="folio-item__title">The Covid19 Pandemic</h4>
                     </div>
-                    <a href="https://odicare.netlify.app/" title="Project Link" class="folio-item__project-link">Project Link</a>
+                    <a href="analysis_1.html" title="Project Link" class="folio-item__project-link">Project Link</a>
                     <div class="folio-item__caption">
                      </div>
                 </div>
@@ -235,6 +288,23 @@
                         <h4 class="folio-item__title">Cushion Cloud</h4>
                     </div>
                     <a href="https://cushion-cloud.netlify.app/" title="Project Link" class="folio-item__project-link">Project Link</a>
+                    <div class="folio-item__caption">
+                     </div>
+                </div>
+            </div> <!-- end column -->
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/health.jpg" title="Music Life" data-size="1050x700">
+                            <img src="images/portfolio/health.jpg" 
+                                 srcset="images/portfolio/health.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Frontend</div>
+                        <h4 class="folio-item__title">CovidCare</h4>
+                    </div>
+                    <a href="https://odicare.netlify.app/" title="Project Link" class="folio-item__project-link">Project Link</a>
                     <div class="folio-item__caption">
                      </div>
                 </div>
@@ -294,24 +364,7 @@
                     </div>
                 </div>
             </div> <!-- end column -->
-            <div class="column" data-aos="fade-up">
-                <div class="folio-item">
-                    <div class="folio-item__thumb">
-                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/noir.jpg" title="The Lamp" data-size="1050x700">
-                            <img src="images/portfolio/noir.jpg" 
-                                 srcset="images/portfolio/noir.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="folio-item__info">
-                        <div class="folio-item__cat">Landing Page</div>
-                        <h4 class="folio-item__title">P3 Solutions</h4>
-                    </div>
-                    <a href="https://p3solutions.netlify.app/" title="Project Link" class="folio-item__project-link">Project Link</a>
-                    <div class="folio-item__caption">
-                     </div>
-                </div>
-            </div> <!-- end column -->
-            
+       
 
         </div> <!-- folio-list -->
 
